@@ -12,5 +12,6 @@ public class Divisors {
 			}
 			k+=1;		
 		}
+		
 	}
 }
