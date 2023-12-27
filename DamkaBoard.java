@@ -5,7 +5,7 @@ public class DamkaBoard {
 	public static void main(String[] args) {
 		//// Put your code here
 		int n = Integer.parseInt(args[0]);
-		for(int i=0 ; i< n-1  ; i++ ){
+		for(int i=0 ; i< n  ; i++ ){
 			int c =n;
 			if(i % 2 == 0){
 				System.out.print("*");
@@ -13,7 +13,7 @@ public class DamkaBoard {
 			else{
 				System.out.print(" *");
 			}
-			for(int k = 0  ; k< c ; k++){
+			for(int k = 0  ; k< c-1 ; k++){
 				System.out.print(" " + "*");
 			}
 			System.out.println();
