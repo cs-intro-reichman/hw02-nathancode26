@@ -9,15 +9,15 @@ public class DamkaBoard {
 			int c =n;
 			if(i % 2 == 0){
 				System.out.print("* ");
+				for(int k = 0  ; k< c-1 ; k++){
+				System.out.print("* ");}
 			} 
 			else{
-				System.out.print(" * ");
-			}
-			for(int k = 0  ; k< c-1 ; k++){
-				System.out.print("* ");
+				System.out.print(" *");
+				for(int k = 0  ; k< c-1 ; k++){
+				System.out.print(" *");}
 			}
 			System.out.println();
 		}
-		
 	}
 }
